@@ -1,13 +1,13 @@
 //import liraries
-import React, {Component} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import React from 'react';
+import {View, StyleSheet} from 'react-native';
+import Text from '../../components/Text';
 
 // create a component
-const Home = () => {
+const WriteMain = () => {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
-      <Text>안녕하십니까 임효현입니다</Text>
+      <Text>WriteMain</Text>
     </View>
   );
 };
@@ -18,9 +18,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#2c3e50',
+    // backgroundColor: '#2c3e50',
   },
 });
 
 //make this component available to the app
-export default Home;
+export default WriteMain;

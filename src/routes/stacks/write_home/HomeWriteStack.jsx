@@ -1,9 +1,9 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import HomeMain from '../../../screen/home/HomeMain';
-import WriteMain from '../../../screen/write/WriteMain';
-import WriteSelect from '../../../screen/write/WriteSelect';
-import WriteMoodResult from '../../../screen/write/WriteMoodResult';
+import HomeMain from '@screens/home/HomeMain';
+import WriteMain from '@screens/write/WriteMain';
+import WriteSelect from '@screens/write/WriteSelect';
+import WriteMoodResult from '@screens/write/WriteMoodResult';
 
 const Stack = createStackNavigator();
 
